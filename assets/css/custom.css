@@ -1,0 +1,9 @@
+.menu-classic * + .menu-item-desc span .label.label-success {
+    background-color: #03b90380;
+}
+@media (min-width: 320px) and (max-width: 768px){
+  .list-menu .col-xs-12{
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
