@@ -7,3 +7,40 @@
     padding-right: 0px;
   }
 }
+.btn-xs, .btn-group-xs > .btn {
+    font-size: 13px;
+    padding: 3px 15px;
+}
+.unit-body a.active{
+  color: #fff;
+  background-color: #f16121;
+  border-color: #f16121;
+}
+.form-label-outside, .form-label-outside.focus, .form-label-outside.auto-fill {
+    -webkit-transform: none;
+    transform: none;
+    color: #f16121;
+    font-size: 18px;
+    opacity: 1;
+}
+.responsive-tabs.responsive-tabs-button .resp-accordion, .responsive-tabs.responsive-tabs-button .resp-tab-content, .responsive-tabs.responsive-tabs-horizontal-background .resp-accordion, .responsive-tabs.responsive-tabs-horizontal-background .resp-tab-content {
+    color: #f16121;
+    background: #fff;
+    /*border-bottom: solid 1px #262424;*/
+}
+.responsive-tabs.responsive-tabs-button .resp-accordion, .responsive-tabs.responsive-tabs-horizontal-background .resp-accordion {
+    padding: 10px 10px 5px 5px;
+    /*border-radius: 6px;*/
+    font-weight: 500;
+    transition: 1.3s all ease;
+}
+.responsive-tabs.responsive-tabs-button .resp-arrow, .responsive-tabs.responsive-tabs-horizontal-background .resp-arrow {
+    display:none;
+}
+.responsive-tabs.responsive-tabs-button .resp-tab-content, .responsive-tabs.responsive-tabs-horizontal-background .resp-tab-content {
+    padding: 0 5px 20px 5px;
+    border-radius: 0 0 6px 6px;
+}
+.btn-shadow {
+    box-shadow: 0 3px 11px 0 rgb(241, 97, 33);
+}

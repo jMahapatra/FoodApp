@@ -7895,7 +7895,7 @@ a:hover > .icon-google.icon-circle {
 }
 
 .mdi-bookmark-remove:before {
-  content: "\f1bc";
+  content: "\f0c6";
 }
 
 .mdi-border-all:before {
@@ -8179,7 +8179,7 @@ a:hover > .icon-google.icon-circle {
 }
 
 .mdi-car-connected:before {
-  content: "\f203";
+  content: "\f10D";
 }
 
 .mdi-car-wash:before {
@@ -8191,15 +8191,15 @@ a:hover > .icon-google.icon-circle {
 }
 
 .mdi-cart:before {
-  content: "\f206";
+  content: "\f110";
 }
 
 .mdi-cart-outline:before {
-  content: "\f207";
+  content: "\f111";
 }
 
 .mdi-cart-plus:before {
-  content: "\f208";
+  content: "\f112";
 }
 
 .mdi-case-sensitive-alt:before {
@@ -8303,11 +8303,14 @@ a:hover > .icon-google.icon-circle {
 }
 
 .mdi-check:before {
-  content: "\f222";
+  content: "\f12C";
+}
+.mdi-check-circle:before{
+	content: "\f5E0";
 }
 
 .mdi-check-all:before {
-  content: "\f223";
+  content: "\f12D";
 }
 
 .mdi-checkbox-blank:before {
@@ -8447,7 +8450,7 @@ a:hover > .icon-google.icon-circle {
 }
 
 .mdi-clock:before {
-  content: "\f246";
+  content: "\f150";
 }
 
 .mdi-clock-end:before {
@@ -8455,7 +8458,7 @@ a:hover > .icon-google.icon-circle {
 }
 
 .mdi-clock-fast:before {
-  content: "\f248";
+  content: "\f152";
 }
 
 .mdi-clock-in:before {
@@ -8715,11 +8718,11 @@ a:hover > .icon-google.icon-circle {
 }
 
 .mdi-content-save:before {
-  content: "\f289";
+  content: "\f193";
 }
 
 .mdi-content-save-all:before {
-  content: "\f28a";
+  content: "\f194";
 }
 
 .mdi-contrast:before {
@@ -13424,6 +13427,7 @@ textarea.form-control {
   line-height: 25px;
   padding: 7px 18px 10px;
   background-color: #f5f5f5;
+  height: auto;
 }
 
 .form-control:focus {
@@ -21123,7 +21127,8 @@ fieldset[disabled] .one-screen-page .btn-primary {
 }
 
 .post-modern {
-  max-width: 570px;
+  /*max-width: 570px;*/
+  max-width: 100%;
   margin-left: auto;
   margin-right: auto;
   box-shadow: 0 3px 11px 0 rgba(0, 0, 0, 0.15);
@@ -21131,7 +21136,7 @@ fieldset[disabled] .one-screen-page .btn-primary {
 
 .post-modern .post-inset,
 .post-modern .post-content {
-  padding: 30px 30px 24px;
+  padding: 20px 20px 20px;
 }
 
 .post-modern .post-inset {
@@ -33793,7 +33798,8 @@ span.search {
 }
 
 .slick-next:before {
-  content: "";
+  font-family: FontAwesome;
+   content: "\f095";
   -webkit-transform: rotate(180deg);
   transform: rotate(180deg);
 }
