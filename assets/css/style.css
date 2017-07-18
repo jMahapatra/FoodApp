@@ -6642,7 +6642,7 @@ a:hover > .icon-google.icon-circle {
 }
 
 .fa-cart-plus:before {
-  content: "\f217";
+  content: "\f112";
 }
 
 .fa-cart-arrow-down:before {
@@ -11092,6 +11092,9 @@ a:hover > .icon-google.icon-circle {
 .mdi-pencil:before {
   content: "\f4da";
 }
+.mdi-lead-pencil:before {
+  content: "\f64f";
+}
 
 .mdi-pencil-box:before {
   content: "\f4db";
@@ -11994,7 +11997,7 @@ a:hover > .icon-google.icon-circle {
 }
 
 .mdi-star:before {
-  content: "\f5bc";
+  content: "\f4ce";
 }
 
 .mdi-star-circle:before {
@@ -12010,7 +12013,7 @@ a:hover > .icon-google.icon-circle {
 }
 
 .mdi-star-outline:before {
-  content: "\f5c0";
+  content: "\f4d2";
 }
 
 .mdi-steam:before {
@@ -20465,7 +20468,7 @@ table a:hover {
   .deals-block .price-block {
     margin-top: 0;
   }
-  .deals-block .price-block:before {
+  /*.deals-block .price-block:before {
     position: absolute;
     left: -10px;
     top: 50%;
@@ -20478,7 +20481,7 @@ table a:hover {
     border-style: solid;
     border-width: 0 11px 20px 11px;
     border-color: transparent transparent #f16121 transparent;
-  }
+  }*/
 }
 
 .deals-block-small .caption {
@@ -33531,7 +33534,9 @@ span.search {
 }
 
 .stepper-type-1 .stepper-arrow.up:before {
-  content: "";
+  content: "\f415";
+  font-size: 18px;
+  font-weight: bold;
 }
 
 .stepper-type-1 .stepper-arrow.down {
@@ -33539,7 +33544,9 @@ span.search {
 }
 
 .stepper-type-1 .stepper-arrow.down:before {
-  content: "";
+  content: "\f374";
+  font-size: 18px;
+  font-weight: bold;
 }
 
 .stepper-type-2 .stepper {

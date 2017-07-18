@@ -20,6 +20,7 @@ try{if (!window.CloudFlare) {var CloudFlare=[{verbose:0,p:0,byc:0,owlid:"cf",bag
     <!-- Stylesheets-->
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Changa+One:400,400i%7CGrand+Hotel%7CLato:300,400,400italic,700">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/custom.css">
 		<!--[if lt IE 10]>
     <div style="background: #212121; padding: 10px 0; box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3); clear: both; text-align:center; position: relative; z-index:1;"><a href="https://windows.microsoft.com/en-US/internet-explorer/"><img src="images/ie8-panel/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."></a></div>
     <script src="js/html5shiv.min.js"></script>
@@ -90,12 +91,37 @@ try{if (!window.CloudFlare) {var CloudFlare=[{verbose:0,p:0,byc:0,owlid:"cf",bag
                   <div class="rd-navbar-shop"><a href="shop-cart.html" class="link link-shop link-default"><span class="big text-gray-light">Cart</span><span class="icon icon-sm mdi mdi-cart"></span><span class="label-inline big text-white">2</span></a></div>
                   <!-- RD Navbar Nav-->
                   <ul class="rd-navbar-nav">
-                    <li class="active"><a href="index.html">Home</a>
+                    <li class="active"><a href="index.html">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="deals.html">Offers</a></li>
+                    <li><a href="menu-classic.html">Choose Your Menu</a>
+                      <ul class="rd-navbar-dropdown">
+                        <li>
+                          <ul>
+                            <li><a href="menu-classic.html"><i class="fa fa-shopping-basket"></i> Breakfast</a></li>
+                            <li><a href="menu-classic.html"><i class="fa fa-shopping-basket"></i> Rice & Biriyani</a></li>
+                            <li><a href="menu-classic.html#"><i class="fa fa-shopping-basket"></i> Starters</a></li>
+                            <li><a href="menu-classic.html#"><i class="fa fa-shopping-basket"></i> Main Course</a></li>
+                            <li><a href="menu-classic.html#"><i class="fa fa-shopping-basket"></i> Roti, Paratha & Nan</a></li>
+                            <li><a href="menu-classic.html#"><i class="fa fa-shopping-basket"></i> Tandoori & Kebabs</a></li>
+                            <li><a href="menu-classic.html#"><i class="fa fa-shopping-basket"></i> Fast Foods</a></li>
+                            <li><a href="menu-classic.html#"><i class="fa fa-shopping-basket"></i> Deserts</a></li>
+                            <li><a href="menu-classic.html#"><i class="fa fa-shopping-basket"></i> Evening Snacks</a></li>
+                          </ul>
+                        </li>
+                        <li>
+                          <ul>
+                            <li><a href="#"><i class="fa fa-shopping-basket"></i> Combo Meal</a></li>
+                            <li><a href="#"><i class="fa fa-shopping-basket"></i> Seasonal Items</a></li>
+                          </ul>
+                        </li>
+                      </ul>
                     </li>
-                    <li><a href="about.html">About Us</a>
-                    </li>
+                    <li><a href="careers.html">We'r Hiring</a></li>
+                    <li><a href="#">Login</a></li>
+                    <li><a href="myaccount.html">Profile</a></li>
+                    <!-- RD Navbar Dropdown
                     <li><a href="index.html#">Cuisins</a>
-                      <!-- RD Navbar Dropdown-->
                       <ul class="rd-navbar-dropdown menu-img-wrap">
                         <li class="menu-img"><a href="menu-single.html"><img src="assets/img/menu-food-01.png" alt="" width="88" height="60"><span>Indian</span></a></li>
                         <li class="menu-img"><a href="menu-single.html"><img src="assets/img/menu-food-02.png" alt="" width="88" height="60"><span>Odishi</span></a></li>
@@ -106,7 +132,6 @@ try{if (!window.CloudFlare) {var CloudFlare=[{verbose:0,p:0,byc:0,owlid:"cf",bag
                       </ul>
                     </li>
                     <li><a href="index.html#">Buffets</a>
-                      <!-- RD Navbar Dropdown-->
                       <ul class="rd-navbar-dropdown menu-img-wrap">
                         <li class="menu-img"><a href="menu-single.html"><img src="assets/img/menu-food-01.png" alt="" width="88" height="60"><span>Breakfast</span></a></li>
                         <li class="menu-img"><a href="menu-single.html"><img src="assets/img/menu-food-02.png" alt="" width="88" height="60"><span>Lunch</span></a></li>
@@ -117,7 +142,6 @@ try{if (!window.CloudFlare) {var CloudFlare=[{verbose:0,p:0,byc:0,owlid:"cf",bag
                       </ul>
                     </li>
                     <li><a href="index.html#">Veg</a>
-                      <!-- RD Navbar Dropdown-->
                       <ul class="rd-navbar-dropdown menu-img-wrap">
                         <li class="menu-img"><a href="menu-single.html"><img src="assets/img/menu-food-06.png" alt="" width="88" height="60"><span>Combo Meal</span></a></li>
                         <li class="menu-img"><a href="menu-single.html"><img src="assets/img/menu-food-01.png" alt="" width="88" height="60"><span>Biriyani</span></a></li>
@@ -125,11 +149,9 @@ try{if (!window.CloudFlare) {var CloudFlare=[{verbose:0,p:0,byc:0,owlid:"cf",bag
                         <li class="menu-img"><a href="menu-single.html"><img src="assets/img/menu-food-04.png" alt="" width="88" height="60"><span>Fastfood</span></a></li>
                         <li class="menu-img"><a href="menu-single.html"><img src="assets/img/menu-food-05.png" alt="" width="88" height="60"><span>Tiffin</span></a></li>
                         <li class="menu-img"><a href="menu-single.html"><img src="assets/img/menu-food-03.png" alt="" width="88" height="60"><span>Seasonal</span></a></li>
-
                       </ul>
                     </li>
                     <li><a href="index.html#">Non-Veg </a>
-                      <!-- RD Navbar Dropdown-->
                       <ul class="rd-navbar-dropdown menu-img-wrap">
                         <li class="menu-img"><a href="menu-single.html"><img src="assets/img/menu-food-04.png" alt="" width="88" height="60"><span>Popular</span></a></li>
                         <li class="menu-img"><a href="menu-single.html"><img src="assets/img/menu-food-06.png" alt="" width="88" height="60"><span>Combo Meal</span></a></li>
@@ -137,11 +159,9 @@ try{if (!window.CloudFlare) {var CloudFlare=[{verbose:0,p:0,byc:0,owlid:"cf",bag
                         <li class="menu-img"><a href="menu-single.html"><img src="assets/img/menu-food-02.png" alt="" width="88" height="60"><span>Main Course</span></a></li>
                         <li class="menu-img"><a href="menu-single.html"><img src="assets/img/menu-food-04.png" alt="" width="88" height="60"><span>Fastfood</span></a></li>
                         <li class="menu-img"><a href="menu-single.html"><img src="assets/img/menu-food-05.png" alt="" width="88" height="60"><span>Snacks</span></a></li>
-
                       </ul>
                     </li>
                     <li><a href="index.html#">Pages</a>
-                      <!-- RD Navbar Megamenu-->
                       <ul class="rd-navbar-megamenu">
                         <li>
                           <h6 class="rd-megamenu-header">Pages</h6>
@@ -185,7 +205,7 @@ try{if (!window.CloudFlare) {var CloudFlare=[{verbose:0,p:0,byc:0,owlid:"cf",bag
                           </ul>
                         </li>
                       </ul>
-                    </li>
+                    </li>-->
                     <!--<li><a href="index.html#">Gallery</a>
                       <ul class="rd-navbar-dropdown">
                         <li><a href="gallery-grid.html">Grid Gallery</a>
