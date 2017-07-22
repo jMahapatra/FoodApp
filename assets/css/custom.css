@@ -55,7 +55,7 @@
 }
 
 
-.deals-block .caption {
+.deals-block .caption.custom {
     display: -ms-flexbox;
     display: -webkit-flex;
     display: flex;
@@ -89,4 +89,21 @@
 }
 .stepper input[type="number"] {
     background-color: white;
+}
+@media (min-width: 320px) {
+  .group-sm {
+    white-space: nowrap;
+  }
+}
+
+.box-comment-outboxed .media-body.borderbtm {
+    padding: 2px;
+    border-radius: 6px;
+    border: none;
+    border-bottom: 1px solid #d9d9d9;
+}
+.job-offer-primary {
+    padding: 23px 27px 20px;
+    box-shadow: 0 2px 5px rgba(241, 97, 33, 0.62);
+    border-radius: 6px;
 }
